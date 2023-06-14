@@ -1,4 +1,6 @@
-# renpy2flatpak
+# renpy2flatpak-makr2 [Fork of:https://github.com/dcbaker/renpy2flatpak]
+
+this version has some bug fixes that stoped the game from starting
 
 Script to mostly automate creating flatpaks from published renpy projects
 
@@ -17,7 +19,6 @@ It currently automatically does the following automatically:
 - patches the game to honor $XDG_DATA_HOME for storing game data inside the sandbox (instead of needing $HOME access)
 - sets up the sandbox to allow audio and display, but nothing else
 - recompiles the program when mods are applied
-- strips .rpy files to save space (keeping the rpyc files)
 - strips windows and macos specific files
 - allows local install or publishing to a repo
 
