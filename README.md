@@ -1,4 +1,4 @@
-# renpy2flatpak-makr2 [Fork of:https://github.com/dcbaker/renpy2flatpak]
+# renpy2flatpak-mark2 [Fork of:https://github.com/dcbaker/renpy2flatpak]
 
 this version has some bug fixes that stoped the game from starting
 
