@@ -1,0 +1,40 @@
+[common]
+  name = 'of Potions and Spells'
+  reverse_url = 'app.better.arch.IDS'  # name will be appended
+  # "Game" is added automatically
+  # used freedesktop menu categories. see: https://specifications.freedesktop.org/menu-spec/latest/apas02.html
+  categories = ['Game']
+
+[appdata]
+  summary = "FSK18+ Fairy Tail fan Game"
+  description = """
+    Play in the Fairy Tail world and meet some of the Girls
+    """
+
+  # This is an optional value for the license of the renpy project itself.
+  # If unset it defaults to LicenseRef-Proprietary.
+  # if you have specific terms which are not an Open Source license, you can use the form:
+  # LicenseRef-Proprietary=https://www.example.com/my-license
+  # See: https://spdx.org/specifications for more information
+  #license = "SPDX identifier"
+
+[appdata.content_rating]
+    # optional
+    # Uses OARS specifications. See: https://hughsie.github.io/oars/
+    # keys should be ids, and the values must be a rating: none, mild, moderate, or intense
+   #   <content_rating type="oars-1.0">
+    #<content_attribute id="violence-realistic">intense</content_attribute>
+    #<content_attribute id="violence-sexual">intense</content_attribute>
+    #<content_attribute id="drugs-alcohol">moderate</content_attribute>
+    #<content_attribute id="drugs-narcotics">moderate</content_attribute>
+    #<content_attribute id="sex-nudity">intense</content_attribute>
+    #<content_attribute id="sex-themes">intense</content_attribute>
+    #<content_attribute id="language-profanity">moderate</content_attribute>
+    #<content_attribute id="language-discrimination">intense</content_attribute>
+  #</content_rating>
+
+
+[appdata.releases]
+  # optional
+  # in the form "version = date"
+  0.7.2 = "2023-06-14" 
