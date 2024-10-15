@@ -1,6 +1,6 @@
 # renpy2flatpak-mark2 [Fork of:https://github.com/dcbaker/renpy2flatpak]
 
-this version has some bug fixes that stoped the game from starting
+This version has some bug fixes that stopped the game from starting
 
 Script to mostly automate creating flatpaks from published renpy projects
 
